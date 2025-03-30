@@ -16,7 +16,7 @@ import nltk
 nltk.download('stopwords')
 
 # Streamlit UI
-st.title("Hate Speech Detection")
+st.title("Automatic Content Moderator Helper")
 
 # File uploader for CSV dataset
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
